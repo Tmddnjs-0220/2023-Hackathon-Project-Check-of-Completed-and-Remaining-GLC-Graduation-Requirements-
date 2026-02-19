@@ -5,9 +5,7 @@ _Overview_
 This project was developed during a 2023 hackathon hosted by the Applied Information Engineering department.
 The goal of the project was to build a system that allows students to easily check whether they meet the graduation requirements for the Global Leaders College (GLC) at Yonsei University.
 
-Students upload their academic records as a CSV file, and the system analyzes the data to determine:
-  1. Whether graduation requirements are satisfied
-  2. Which requirements are still remaining
+Students upload their academic records as a CSV file, and the system analyzes the data to determine whether graduation requirements are satisfied and what remains.
 
 
 _Features_
@@ -73,16 +71,9 @@ Only my contribution has been refactored and uploaded here for clarity.
 
 _What I Learned_
 
-Through this project, I learned that accurate data handling is just as important as implementing the logic itself.
-I realized that:
+Through this project, I learned that data quality is just as important as implementing logic. Even small inconsistencies in data can significantly affect results, and backend systems must be designed to handle real-world variability.
 
-  ㅇ Small inconsistencies in data can significantly affect results
-  
-  ㅇ Structuring data clearly is essential for reliable computation
-  
-  ㅇ Backend logic must be designed with real-world input variability in mind
-  
-This experience made me more interested in data-focused problem solving, where improving data quality and structure plays a key role in building reliable systems.
+This experience led me to develop a strong interest in data-centric problem solving, where improving data quality and structure plays a critical role in building reliable systems.
 
 
 
