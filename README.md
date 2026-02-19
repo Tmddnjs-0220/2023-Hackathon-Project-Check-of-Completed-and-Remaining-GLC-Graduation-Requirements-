@@ -1,6 +1,7 @@
 **GLC Graduation Requirement Validation System**
 
 _Overview_
+
 This project was developed during a 2023 hackathon hosted by the Applied Information Engineering department.
 The goal of the project was to build a system that allows students to easily check whether they meet the graduation requirements for the Global Leaders College (GLC) at Yonsei University.
 
@@ -9,12 +10,14 @@ Students upload their academic records as a CSV file, and the system analyzes th
   2. Which requirements are still remaining
 
 _Features_
+
 ㅇ CSV file input processing
 ㅇ Automatic major classification based on student data
 ㅇ Graduation requirement validation logic
 ㅇ Support for multiple majors with different requirement criteria
 
 _ My Contribution_
+
 I was responsible for the backend logic, specifically:
   1. Designing and implementing CSV data preprocessing
   2. Building the graduation requirement validation logic
@@ -24,6 +27,7 @@ I was responsible for the backend logic, specifically:
 I focused on ensuring that the system produces reliable and consistent results even when input data is not perfectly structured.
 
 _How It Works_
+
   1. The user uploads a CSV file containing their academic records
   2. The system reads and preprocesses the data
   3. The student’s major is identified
@@ -31,11 +35,13 @@ _How It Works_
   5. The system outputs whether the student meets the requirements and what is missing
 
 _Tech Stack_
+
 ㅇ Python
 ㅇ Pandas (for data processing)
 ㅇ Streamlit (for frontend integration, 3 man team project)
 
 _Scope of This Repository_
+
 This repository focuses on the backend logic that I implemented during the hackathon.
 It includes:
   ㅇ CSV preprocessing code
@@ -47,6 +53,7 @@ The full system (including frontend UI and full integration) was developed as a 
 Only my contribution has been refactored and uploaded here for clarity.
 
 _What I Learned_
+
 Through this project, I learned that accurate data handling is just as important as implementing the logic itself.
 I realized that:
   ㅇ Small inconsistencies in data can significantly affect results
