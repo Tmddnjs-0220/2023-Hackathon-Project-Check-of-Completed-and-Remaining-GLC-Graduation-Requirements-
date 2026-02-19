@@ -9,12 +9,14 @@ Students upload their academic records as a CSV file, and the system analyzes th
   1. Whether graduation requirements are satisfied
   2. Which requirements are still remaining
 
+
 _Features_
 
 ㅇ CSV file input processing
 ㅇ Automatic major classification based on student data
 ㅇ Graduation requirement validation logic
 ㅇ Support for multiple majors with different requirement criteria
+
 
 _My Contribution_
 
@@ -26,6 +28,7 @@ I was responsible for the backend logic, specifically:
 
 I focused on ensuring that the system produces reliable and consistent results even when input data is not perfectly structured.
 
+
 _How It Works_
 
   1. The user uploads a CSV file containing their academic records
@@ -34,23 +37,26 @@ _How It Works_
   4. Based on the major, the corresponding graduation requirements are applied
   5. The system outputs whether the student meets the requirements and what is missing
 
+
 _Tech Stack_
 
 ㅇ Python
 ㅇ Pandas (for data processing)
 ㅇ Streamlit (for frontend integration, 3 man team project)
 
+
 _Scope of This Repository_
 
 This repository focuses on the backend logic that I implemented during the hackathon.
 It includes:
-  ㅇ CSV preprocessing code
+  ㅇ CSV preprocessing code /n
   ㅇ Graduation requirement validation logic for:
     - Applied Information Engineering
     - Bio & Living Engineering
     - General Education requirements
 The full system (including frontend UI and full integration) was developed as a team project.
 Only my contribution has been refactored and uploaded here for clarity.
+
 
 _What I Learned_
 
