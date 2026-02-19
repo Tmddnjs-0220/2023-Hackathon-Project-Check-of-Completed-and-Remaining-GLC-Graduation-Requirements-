@@ -1,4 +1,5 @@
 **GLC Graduation Requirement Validation System**
+
 _Overview_
 This project was developed during a 2023 hackathon hosted by the Applied Information Engineering department.
 The goal of the project was to build a system that allows students to easily check whether they meet the graduation requirements for the Global Leaders College (GLC) at Yonsei University.
