@@ -16,7 +16,7 @@ _Features_
 ㅇ Graduation requirement validation logic
 ㅇ Support for multiple majors with different requirement criteria
 
-_ My Contribution_
+_My Contribution_
 
 I was responsible for the backend logic, specifically:
   1. Designing and implementing CSV data preprocessing
