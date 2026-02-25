@@ -63,6 +63,10 @@ It includes:
     
     - Bio & Living Engineering
     
+    - Korean Language & Culture Education
+    
+    - International Commerce
+
     - General Education requirements
     
 The full system (including frontend UI and full integration) was developed as a team project.
