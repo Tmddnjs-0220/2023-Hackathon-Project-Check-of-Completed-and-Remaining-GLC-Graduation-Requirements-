@@ -2,11 +2,11 @@ import pandas as pd
 
 
 def load_and_clean(csv_path):
-    # Try reading with utf-8 first
+    # reading with utf-8 
     try:
         df = pd.read_csv(csv_path, encoding='utf-8')
     except:
-        # If utf-8 fails (Windows Excel case), try cp949
+        # If utf-8 fails 
         df = pd.read_csv(csv_path, encoding='cp949')
 
     # Organizing columns (remove space/lowercase)
@@ -31,5 +31,6 @@ def load_and_clean(csv_path):
 
 
 def save_result_csv(df, file_name):
-    # utf-8-sig prevents Korean 깨짐 in Excel
+    # preventing Korean Language breaking in Excel
     df.to_csv(file_name, index=False, encoding='utf-8-sig')
+
