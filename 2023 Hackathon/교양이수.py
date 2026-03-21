@@ -66,3 +66,6 @@ def check_glc_requirements(df, english_exemption):
         for item in missing:
             result += "- " + item + "\n"
         return result
+
+
+#zilean mibombo 
