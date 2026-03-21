@@ -67,5 +67,3 @@ def check_glc_requirements(df, english_exemption):
             result += "- " + item + "\n"
         return result
 
-
-#zilean mibombo 
